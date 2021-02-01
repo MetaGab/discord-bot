@@ -1,0 +1,28 @@
+{
+  "name": "metabot",
+  "version": "0.2.0",
+  "description": "Discord bot",
+  "main": "asesino.js",
+  "author": "GB",
+  "dependencies": {
+    "@discordjs/opus": "^0.3.2",
+    "@google-cloud/speech": "^4.1.1",
+    "canvas": "^2.6.1",
+    "cross-fetch": "^3.0.4",
+    "debug": "^4.1.1",
+    "discord.js": "^12",
+    "ffmpeg-static": "^4.2.5",
+    "raf": "^3.4.1",
+    "say": "^0.16.0",
+    "ytdl-core": "^3.1.2"
+  },
+  "engines": {
+    "node": "8.10.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node asesino.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC"
+}
